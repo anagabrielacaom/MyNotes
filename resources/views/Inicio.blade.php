@@ -4,6 +4,7 @@
         <div class="col-md-7">
             <div class="table-responsive">
                 <table class="table">
+                <caption> Esta tabla contiene la información de las notas almacenadas </caption>
                     <tr>
                         <th id="idNota">Id</th>
                         <th id="Nom">Nombre</th>
