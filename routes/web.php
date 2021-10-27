@@ -12,10 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
-Route::get('/', function () {
-    return view('welcome');
-});*/
 Route::get('/' , 'App\Http\Controllers\NotaController@index')->name('Inicio');
 Route::post('/agregar' , 'App\Http\Controllers\NotaController@store')->name('store');
 Route::get('/editar/{id}' , 'App\Http\Controllers\NotaController@edit')->name('editar');
