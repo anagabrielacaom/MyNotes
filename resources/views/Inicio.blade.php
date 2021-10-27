@@ -5,10 +5,10 @@
             <div class="table-responsive">
                 <table class="table">
                     <tr>
-                        <th>Id</th>
-                        <th>Nombre</th>
-                        <th>Descripción</th>
-                        <th>Acciones</th>
+                        <th id="idNota">Id</th>
+                        <th id="Nom">Nombre</th>
+                        <th id="Desc">Descripción</th>
+                        <th id="Acc">Acciones</th>
                     </tr>
                     @foreach ($notas as $item)
                         <tr>
