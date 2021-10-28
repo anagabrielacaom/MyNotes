@@ -17,10 +17,6 @@ Para el desarrollo del software se implementó la tecnología PHP Frameworks Ful
 - Gabriela Cárdenas - 1151614
 - Karen Ontiveros - 1151629
 
-## Requisitos
-
-...
-
 ## Herramientas
 
 - PHP v8
@@ -29,15 +25,3 @@ Para el desarrollo del software se implementó la tecnología PHP Frameworks Ful
 
 - Visual Studio Code
 - AWS Educate
-
-## Instrucciones
-
-...
-
-### Ejecutar Aplicación
-
-...
-
-### Despliegue en la Nube
-
-...
