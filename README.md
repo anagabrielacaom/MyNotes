@@ -91,9 +91,11 @@ Nos ubicamos en DocumentRoot Y reemplazamos por:
     composer install
 # •	Ejecutar el comando para configurar el archivo .env
 Se copiará el contenido del archivo .env.example y lo pegará el otro archivo llamado .env
+    
     cp .env.example .env 
 # •	Generar la clave privada de la aplicación
 Laravel nos provee de un comando para generar dicha clave, vamos a ejecutar el siguiente comando:
+    
     php artisan key:generate
 # •	Crear un RDS en AWS e importamos a la base de datos
 # •	Actualizar datos en la base de datos
